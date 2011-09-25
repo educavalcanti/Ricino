@@ -1,0 +1,12 @@
+Para migrar do SVN para o git, primeiro crie uma conta no github, configure sua máquina de acordo com o tutorial do github e então vá na pasta onde está seu projeto e faça os seguintes comandos
+
+git config --global user.name "Seu nome"
+git config --global user.email "Seu email"
+
+rm -rf `find . -type d -name .svn`
+
+git init
+
+git remote add origin git@github.com:gmorada/Ricino.git
+
+git pull origin master
