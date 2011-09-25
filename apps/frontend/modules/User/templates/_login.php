@@ -21,7 +21,8 @@
     {
         $count = substr_count($user->getAttribute("loginError"), "permissão");
         
-        $user->setAttribute("loginError", "");
+        if($count)
+            $user->setAttribute("loginError", "");
 
 ?>
         <p class="title">ÁREA RESTRITA</p>

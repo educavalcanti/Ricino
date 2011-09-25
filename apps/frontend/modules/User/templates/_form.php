@@ -35,10 +35,17 @@
         </td>
       </tr>
       <tr>
-        <th><?php echo $form['tius_cd_chave']->renderLabel() ?></th>
+        <th><?php echo $form['usua_nm_nome']->renderLabel() ?></th>
         <td>
-          <?php echo $form['tius_cd_chave']->renderError() ?>
-          <?php echo $form['tius_cd_chave'] ?>
+          <?php echo $form['usua_nm_nome']->renderError() ?>
+          <?php echo $form['usua_nm_nome'] ?>
+        </td>
+      </tr>
+      <tr>
+        <th><?php echo $form['usua_dt_nascimento']->renderLabel() ?></th>
+        <td>
+          <?php echo $form['usua_dt_nascimento']->renderError() ?>
+          <?php echo $form['usua_dt_nascimento'] ?>
         </td>
       </tr>
     </tbody>

@@ -12,5 +12,8 @@ class USUARIOForm extends BaseUSUARIOForm
 {
   public function configure()
   {
+      $this->setWidget('tius_cd_chave', new sfWidgetFormInputHidden());
+      
+      $this->setDefault('tius_cd_chave', 4);
   }
 }

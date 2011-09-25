@@ -89,6 +89,12 @@ class UserActions extends sfActions
             }
           }
       }
+      $credentials = $user->getCredentials();
+      if($credentials[0] == sfConfig::get('app_PENDING'))
+      {
+          $this->getUser()->Signout();
+          $user->setAttribute('loginError', 'Você ainda não foi autorizado a se logar no sistema');
+      }
       return $this->redirect('homepage');
   }
 
