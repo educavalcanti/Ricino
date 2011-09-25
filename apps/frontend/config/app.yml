@@ -1,0 +1,11 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+#all:
+all:
+  .app_set:
+    ADMIN: 1
+    MANAGER: 2
+    USER: 3
+    PENDING: 4

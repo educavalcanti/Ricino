@@ -1,0 +1,1015 @@
+Sep 23 01:43:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 23 01:43:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:15 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 23 01:43:15 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/indexSuccess.php"
+Sep 23 01:43:15 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/_login.php"
+Sep 23 01:43:15 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:15 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:15 symfony [info] {sfWebDebugLogger} Configuration 171.50 ms (9)
+Sep 23 01:43:15 symfony [info] {sfWebDebugLogger} Factories 151.96 ms (1)
+Sep 23 01:43:15 symfony [info] {sfWebDebugLogger} Action "Home/index" 0.16 ms (1)
+Sep 23 01:43:15 symfony [info] {sfWebDebugLogger} View "Success" for "Home/index" 24.67 ms (1)
+Sep 23 01:43:15 symfony [info] {sfWebDebugLogger} Partial "Home/_login" 4.57 ms (1)
+Sep 23 01:43:15 symfony [info] {sfWebResponse} Send content (29557 o)
+Sep 23 01:43:17 symfony [info] {sfPatternRouting} Match route "topico" (/Topic.:sf_format) for /Topic with parameters array (  'module' => 'Topic',  'action' => 'index',  'sf_format' => 'html',)
+Sep 23 01:43:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:17 symfony [info] {TopicActions} Call "TopicActions->executeIndex()"
+Sep 23 01:43:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:43:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM TOPICO t - ()
+Sep 23 01:43:17 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/indexSuccess.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_assets.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_flashes.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_header.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_th_tabular.php"
+Sep 23 01:43:17 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.topi_cd_chave AS t__topi_cd_chave, t.usua_cd_criador AS t__usua_cd_criador, t.topi_dt_criacao AS t__topi_dt_criacao, t.topi_tx_titulo AS t__topi_tx_titulo, t.topi_tx_conteudo AS t__topi_tx_conteudo, t.topi_nm_anexo AS t__topi_nm_anexo FROM TOPICO t LIMIT 20 - ()
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_batch_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_actions.php"
+Sep 23 01:43:17 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_footer.php"
+Sep 23 01:43:17 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:17 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Configuration 66.59 ms (12)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Factories 54.96 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Action "Topic/index" 39.04 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} View "Success" for "Topic/index" 112.67 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_assets" 0.70 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_flashes" 0.64 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_header" 0.56 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters" 34.30 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters_field" 26.18 ms (5)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list" 44.20 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_th_tabular" 3.93 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_td_batch_actions" 3.35 ms (4)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_td_tabular" 19.03 ms (4)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_td_actions" 7.77 ms (4)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_batch_actions" 1.08 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_actions" 0.78 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_footer" 0.63 ms (1)
+Sep 23 01:43:17 symfony [info] {sfWebResponse} Send content (99686 o)
+Sep 23 01:43:23 symfony [info] {sfPatternRouting} Match route "mensagem" (/Message.:sf_format) for /Message with parameters array (  'module' => 'Message',  'action' => 'index',  'sf_format' => 'html',)
+Sep 23 01:43:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:23 symfony [info] {MessageActions} Call "MessageActions->executeIndex()"
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM MENSAGEM m - ()
+Sep 23 01:43:23 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/indexSuccess.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_assets.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_flashes.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_header.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.topi_cd_chave AS t__topi_cd_chave, t.usua_cd_criador AS t__usua_cd_criador, t.topi_dt_criacao AS t__topi_dt_criacao, t.topi_tx_titulo AS t__topi_tx_titulo, t.topi_tx_conteudo AS t__topi_tx_conteudo, t.topi_nm_anexo AS t__topi_nm_anexo FROM TOPICO t - ()
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u WHERE (u.usua_cd_chave = ?) - (1)
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u WHERE (u.usua_cd_chave = ?) - (4)
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u WHERE (u.usua_cd_chave = ?) - (1)
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u WHERE (u.usua_cd_chave = ?) - (2)
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_th_tabular.php"
+Sep 23 01:43:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.mens_cd_chave AS m__mens_cd_chave, m.usua_cd_criador AS m__usua_cd_criador, m.topi_cd_chave AS m__topi_cd_chave, m.mens_dt_criacao AS m__mens_dt_criacao, m.mens_tx_conteudo AS m__mens_tx_conteudo, m.mens_nm_anexo AS m__mens_nm_anexo FROM MENSAGEM m LIMIT 20 - ()
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [notice] {sfWebDebugLogger}  Notice at /home/morada/www/ricino/lib/vendor/symfony/lib/i18n/sfDateFormat.class.php on line 487 (Undefined offset: -1)
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [notice] {sfWebDebugLogger}  Notice at /home/morada/www/ricino/lib/vendor/symfony/lib/i18n/sfDateFormat.class.php on line 487 (Undefined offset: -1)
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [notice] {sfWebDebugLogger}  Notice at /home/morada/www/ricino/lib/vendor/symfony/lib/i18n/sfDateFormat.class.php on line 487 (Undefined offset: -1)
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:23 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_tabular.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_td_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_batch_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_actions.php"
+Sep 23 01:43:24 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_footer.php"
+Sep 23 01:43:24 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:24 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Configuration 71.56 ms (12)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Factories 57.28 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Action "Message/index" 36.45 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (9)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} View "Success" for "Message/index" 221.18 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_assets" 1.04 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_flashes" 1.03 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_header" 0.95 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_filters" 62.04 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_filters_field" 53.48 ms (5)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list" 130.49 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_th_tabular" 4.20 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_td_batch_actions" 16.07 ms (18)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_td_tabular" 50.97 ms (18)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_td_actions" 36.33 ms (18)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_batch_actions" 1.34 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_actions" 0.86 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebDebugLogger} Partial "Message/_list_footer" 0.57 ms (1)
+Sep 23 01:43:24 symfony [info] {sfWebResponse} Send content (178788 o)
+Sep 23 01:43:29 symfony [info] {sfPatternRouting} Match route "noticia" (/News.:sf_format) for /News with parameters array (  'module' => 'News',  'action' => 'index',  'sf_format' => 'html',)
+Sep 23 01:43:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:29 symfony [info] {NewsActions} Call "NewsActions->executeIndex()"
+Sep 23 01:43:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:43:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM NOTICIA n - ()
+Sep 23 01:43:29 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/indexSuccess.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_assets.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_flashes.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_header.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 23 01:43:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.tino_cd_chave AS t__tino_cd_chave, t.tino_nm_descricao AS t__tino_nm_descricao FROM TIPO_NOTICIA t - ()
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_batch_actions.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_actions.php"
+Sep 23 01:43:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_footer.php"
+Sep 23 01:43:29 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:29 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Configuration 58.05 ms (12)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Factories 54.94 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Action "News/index" 35.74 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} View "Success" for "News/index" 65.32 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_assets" 0.95 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_flashes" 1.07 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_list_header" 0.91 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_filters" 35.72 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_filters_field" 23.91 ms (6)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_list" 0.81 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_list_batch_actions" 1.14 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_list_actions" 0.79 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebDebugLogger} Partial "News/_list_footer" 0.55 ms (1)
+Sep 23 01:43:29 symfony [info] {sfWebResponse} Send content (77179 o)
+Sep 23 01:43:31 symfony [info] {sfPatternRouting} Match route "noticia_Notice" (/Notice.:sf_format) for /Notice with parameters array (  'module' => 'Notice',  'action' => 'index',  'sf_format' => 'html',)
+Sep 23 01:43:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:31 symfony [info] {NoticeActions} Call "NoticeActions->executeIndex()"
+Sep 23 01:43:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:43:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM NOTICIA n - ()
+Sep 23 01:43:31 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/indexSuccess.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_assets.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_flashes.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_header.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 23 01:43:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.tino_cd_chave AS t__tino_cd_chave, t.tino_nm_descricao AS t__tino_nm_descricao FROM TIPO_NOTICIA t - ()
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_batch_actions.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_actions.php"
+Sep 23 01:43:31 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_footer.php"
+Sep 23 01:43:31 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:31 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Configuration 60.12 ms (12)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Factories 57.05 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Action "Notice/index" 36.01 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} View "Success" for "Notice/index" 62.87 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_assets" 0.70 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_flashes" 0.69 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_header" 0.63 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_filters" 33.13 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_filters_field" 24.49 ms (6)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_list" 0.81 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_batch_actions" 1.16 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_actions" 0.80 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_footer" 0.69 ms (1)
+Sep 23 01:43:31 symfony [info] {sfWebResponse} Send content (77425 o)
+Sep 23 01:43:32 symfony [info] {sfPatternRouting} Match route "topico" (/Topic.:sf_format) for /Topic with parameters array (  'module' => 'Topic',  'action' => 'index',  'sf_format' => 'html',)
+Sep 23 01:43:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:32 symfony [info] {TopicActions} Call "TopicActions->executeIndex()"
+Sep 23 01:43:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:43:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM TOPICO t - ()
+Sep 23 01:43:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/indexSuccess.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_assets.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_flashes.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_header.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_th_tabular.php"
+Sep 23 01:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 23 01:43:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.topi_cd_chave AS t__topi_cd_chave, t.usua_cd_criador AS t__usua_cd_criador, t.topi_dt_criacao AS t__topi_dt_criacao, t.topi_tx_titulo AS t__topi_tx_titulo, t.topi_tx_conteudo AS t__topi_tx_conteudo, t.topi_nm_anexo AS t__topi_nm_anexo FROM TOPICO t LIMIT 20 - ()
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_batch_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_tabular.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_td_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_batch_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_actions.php"
+Sep 23 01:43:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_footer.php"
+Sep 23 01:43:33 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Configuration 2.51 ms (11)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Factories 68.30 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Action "Topic/index" 48.93 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} View "Success" for "Topic/index" 129.18 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_assets" 0.85 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_flashes" 0.66 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_header" 0.58 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters" 38.73 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters_field" 30.43 ms (5)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list" 52.57 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_th_tabular" 4.27 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_td_batch_actions" 3.81 ms (4)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_td_tabular" 20.81 ms (4)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_td_actions" 12.67 ms (4)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_batch_actions" 2.20 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_actions" 7.46 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_footer" 1.04 ms (1)
+Sep 23 01:43:33 symfony [info] {sfWebResponse} Send content (99896 o)
+Sep 23 01:43:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 23 01:43:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:34 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 23 01:43:34 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/indexSuccess.php"
+Sep 23 01:43:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/_login.php"
+Sep 23 01:43:34 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:34 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:34 symfony [info] {sfWebDebugLogger} Configuration 1.66 ms (9)
+Sep 23 01:43:34 symfony [info] {sfWebDebugLogger} Factories 56.94 ms (1)
+Sep 23 01:43:34 symfony [info] {sfWebDebugLogger} Action "Home/index" 0.14 ms (1)
+Sep 23 01:43:34 symfony [info] {sfWebDebugLogger} View "Success" for "Home/index" 18.76 ms (1)
+Sep 23 01:43:34 symfony [info] {sfWebDebugLogger} Partial "Home/_login" 4.29 ms (1)
+Sep 23 01:43:34 symfony [info] {sfWebResponse} Send content (29873 o)
+Sep 23 01:43:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /Home/signout with parameters array (  'module' => 'Home',  'action' => 'signout',)
+Sep 23 01:43:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:36 symfony [info] {HomeActions} Call "HomeActions->executeSignout()"
+Sep 23 01:43:36 symfony [info] {myUser} User is not authenticated
+Sep 23 01:43:36 symfony [info] {sfFrontWebController} Redirect to "http://127.0.0.1:8080/admin_dev.php/"
+Sep 23 01:43:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 23 01:43:36 symfony [info] {sfWebResponse} Send header "Location: http://127.0.0.1:8080/admin_dev.php/"
+Sep 23 01:43:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} Configuration 1.52 ms (8)
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} Factories 57.22 ms (1)
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} Action "Home/signout" 1.44 ms (1)
+Sep 23 01:43:36 symfony [info] {sfWebResponse} Send content (107 o)
+Sep 23 01:43:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 23 01:43:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:36 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 23 01:43:36 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/indexSuccess.php"
+Sep 23 01:43:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/_login.php"
+Sep 23 01:43:36 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:36 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 23 01:43:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} Configuration 1.98 ms (9)
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} Factories 42.84 ms (1)
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} Action "Home/index" 0.14 ms (1)
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} View "Success" for "Home/index" 15.72 ms (1)
+Sep 23 01:43:36 symfony [info] {sfWebDebugLogger} Partial "Home/_login" 2.26 ms (1)
+Sep 23 01:43:36 symfony [info] {sfWebResponse} Send content (29801 o)
+Sep 24 23:35:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 23:35:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:35:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:35:29 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 23:35:29 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/indexSuccess.php"
+Sep 24 23:35:29 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/_login.php"
+Sep 24 23:35:29 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:35:29 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:35:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:35:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:35:29 symfony [info] {sfWebDebugLogger} Configuration 1.78 ms (9)
+Sep 24 23:35:29 symfony [info] {sfWebDebugLogger} Factories 47.51 ms (1)
+Sep 24 23:35:29 symfony [info] {sfWebDebugLogger} Action "Home/index" 0.18 ms (1)
+Sep 24 23:35:29 symfony [info] {sfWebDebugLogger} View "Success" for "Home/index" 18.11 ms (1)
+Sep 24 23:35:29 symfony [info] {sfWebDebugLogger} Partial "Home/_login" 3.74 ms (1)
+Sep 24 23:35:29 symfony [info] {sfWebResponse} Send content (29411 o)
+Sep 24 23:35:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /Home/login with parameters array (  'module' => 'Home',  'action' => 'login',)
+Sep 24 23:35:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:35:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:35:32 symfony [info] {HomeActions} Call "HomeActions->executeLogin()"
+Sep 24 23:35:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:35:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u WHERE (u.usua_nm_usuario = ? AND u.usua_cd_senha = ?) LIMIT 1 - (admin, admin)
+Sep 24 23:35:33 symfony [info] {myUser} Add credential(s) "1"
+Sep 24 23:35:33 symfony [info] {myUser} User is authenticated
+Sep 24 23:35:33 symfony [info] {sfFrontWebController} Redirect to "http://127.0.0.1:8080/admin_dev.php/"
+Sep 24 23:35:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 24 23:35:33 symfony [info] {sfWebResponse} Send header "Location: http://127.0.0.1:8080/admin_dev.php/"
+Sep 24 23:35:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Configuration 1.53 ms (8)
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Factories 46.30 ms (1)
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Action "Home/login" 52.08 ms (1)
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Sep 24 23:35:33 symfony [info] {sfWebResponse} Send content (107 o)
+Sep 24 23:35:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 23:35:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:35:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:35:33 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 23:35:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/indexSuccess.php"
+Sep 24 23:35:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/_login.php"
+Sep 24 23:35:33 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:35:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:35:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:35:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Configuration 1.60 ms (9)
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Factories 59.79 ms (1)
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Action "Home/index" 0.19 ms (1)
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} View "Success" for "Home/index" 21.36 ms (1)
+Sep 24 23:35:33 symfony [info] {sfWebDebugLogger} Partial "Home/_login" 4.60 ms (1)
+Sep 24 23:35:33 symfony [info] {sfWebResponse} Send content (29583 o)
+Sep 24 23:35:35 symfony [info] {sfPatternRouting} Match route "noticia" (/News.:sf_format) for /News with parameters array (  'module' => 'News',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:35:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:35:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:35:35 symfony [info] {NewsActions} Call "NewsActions->executeIndex()"
+Sep 24 23:35:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:35:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM NOTICIA n - ()
+Sep 24 23:35:35 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/indexSuccess.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_assets.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_flashes.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_header.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:35:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.tino_cd_chave AS t__tino_cd_chave, t.tino_nm_descricao AS t__tino_nm_descricao FROM TIPO_NOTICIA t - ()
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_batch_actions.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_actions.php"
+Sep 24 23:35:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_footer.php"
+Sep 24 23:35:35 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:35:35 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:35:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:35:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Configuration 2.43 ms (11)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Factories 54.76 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Action "News/index" 43.94 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} View "Success" for "News/index" 73.92 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_assets" 1.24 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_flashes" 1.66 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_list_header" 0.79 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_filters" 41.58 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_filters_field" 31.20 ms (6)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_list" 1.23 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_list_batch_actions" 2.02 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_list_actions" 1.35 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebDebugLogger} Partial "News/_list_footer" 0.71 ms (1)
+Sep 24 23:35:35 symfony [info] {sfWebResponse} Send content (77009 o)
+Sep 24 23:36:07 symfony [info] {sfPatternRouting} Match route "noticia" (/News.:sf_format) for /News with parameters array (  'module' => 'News',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:08 symfony [info] {NewsActions} Call "NewsActions->executeIndex()"
+Sep 24 23:36:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM NOTICIA n - ()
+Sep 24 23:36:08 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/indexSuccess.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_assets.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_flashes.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_header.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.tino_cd_chave AS t__tino_cd_chave, t.tino_nm_descricao AS t__tino_nm_descricao FROM TIPO_NOTICIA t - ()
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_batch_actions.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_actions.php"
+Sep 24 23:36:08 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_footer.php"
+Sep 24 23:36:08 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:08 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Configuration 2.18 ms (11)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Factories 72.47 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Action "News/index" 44.03 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} View "Success" for "News/index" 68.41 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_assets" 0.81 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_flashes" 0.71 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_list_header" 0.87 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_filters" 42.18 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_filters_field" 33.06 ms (6)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_list" 1.02 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_list_batch_actions" 1.25 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_list_actions" 0.92 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebDebugLogger} Partial "News/_list_footer" 0.63 ms (1)
+Sep 24 23:36:08 symfony [info] {sfWebResponse} Send content (77258 o)
+Sep 24 23:36:32 symfony [info] {sfPatternRouting} Match route "noticia_Notice" (/Notice.:sf_format) for /Notice with parameters array (  'module' => 'Notice',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:32 symfony [info] {NoticeActions} Call "NoticeActions->executeIndex()"
+Sep 24 23:36:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM NOTICIA n - ()
+Sep 24 23:36:32 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/indexSuccess.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_assets.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_flashes.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_header.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 24 23:36:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.tino_cd_chave AS t__tino_cd_chave, t.tino_nm_descricao AS t__tino_nm_descricao FROM TIPO_NOTICIA t - ()
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_filters_field.php"
+Sep 24 23:36:32 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_batch_actions.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_actions.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNotice/templates/_list_footer.php"
+Sep 24 23:36:33 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Configuration 2.21 ms (11)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Factories 58.38 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Action "Notice/index" 40.55 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} View "Success" for "Notice/index" 70.89 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_assets" 1.49 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_flashes" 1.00 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_header" 0.72 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_filters" 40.83 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_filters_field" 31.75 ms (6)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_list" 1.27 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_batch_actions" 1.73 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_actions" 1.27 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "Notice/_list_footer" 0.65 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebResponse} Send content (77454 o)
+Sep 24 23:36:33 symfony [info] {sfPatternRouting} Match route "noticia" (/News.:sf_format) for /News with parameters array (  'module' => 'News',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:33 symfony [info] {NewsActions} Call "NewsActions->executeIndex()"
+Sep 24 23:36:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM NOTICIA n - ()
+Sep 24 23:36:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/indexSuccess.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_assets.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_flashes.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_header.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.tino_cd_chave AS t__tino_cd_chave, t.tino_nm_descricao AS t__tino_nm_descricao FROM TIPO_NOTICIA t - ()
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_batch_actions.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_actions.php"
+Sep 24 23:36:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_footer.php"
+Sep 24 23:36:33 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Configuration 2.54 ms (11)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Factories 51.10 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Action "News/index" 37.09 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} View "Success" for "News/index" 70.96 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_assets" 0.86 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_flashes" 0.82 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_list_header" 0.62 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_filters" 45.41 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_filters_field" 35.77 ms (6)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_list" 0.88 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_list_batch_actions" 1.25 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_list_actions" 1.30 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebDebugLogger} Partial "News/_list_footer" 0.86 ms (1)
+Sep 24 23:36:33 symfony [info] {sfWebResponse} Send content (77286 o)
+Sep 24 23:36:34 symfony [info] {sfPatternRouting} Match route "mensagem" (/Message.:sf_format) for /Message with parameters array (  'module' => 'Message',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:34 symfony [info] {MessageActions} Call "MessageActions->executeIndex()"
+Sep 24 23:36:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM MENSAGEM m - ()
+Sep 24 23:36:34 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/indexSuccess.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_assets.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_flashes.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_header.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.topi_cd_chave AS t__topi_cd_chave, t.usua_cd_criador AS t__usua_cd_criador, t.topi_dt_criacao AS t__topi_dt_criacao, t.topi_tx_titulo AS t__topi_tx_titulo, t.topi_tx_conteudo AS t__topi_tx_conteudo, t.topi_nm_anexo AS t__topi_nm_anexo FROM TOPICO t - ()
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_batch_actions.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_actions.php"
+Sep 24 23:36:34 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_footer.php"
+Sep 24 23:36:34 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:34 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Configuration 2.06 ms (11)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Factories 55.78 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Action "Message/index" 41.78 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} View "Success" for "Message/index" 67.45 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_assets" 1.04 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_flashes" 1.03 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_list_header" 0.68 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_filters" 40.62 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_filters_field" 31.81 ms (5)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_list" 1.25 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_list_batch_actions" 1.83 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_list_actions" 1.18 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebDebugLogger} Partial "Message/_list_footer" 0.66 ms (1)
+Sep 24 23:36:34 symfony [info] {sfWebResponse} Send content (73822 o)
+Sep 24 23:36:35 symfony [info] {sfPatternRouting} Match route "topico" (/Topic.:sf_format) for /Topic with parameters array (  'module' => 'Topic',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:35 symfony [info] {TopicActions} Call "TopicActions->executeIndex()"
+Sep 24 23:36:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM TOPICO t - ()
+Sep 24 23:36:35 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/indexSuccess.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_assets.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_flashes.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_header.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_batch_actions.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_actions.php"
+Sep 24 23:36:35 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_footer.php"
+Sep 24 23:36:35 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:35 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Configuration 2.45 ms (11)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Factories 54.04 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Action "Topic/index" 35.35 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} View "Success" for "Topic/index" 60.85 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_assets" 1.02 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_flashes" 1.05 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_header" 0.69 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters" 34.30 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters_field" 26.10 ms (5)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_list" 1.19 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_batch_actions" 1.68 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_actions" 1.19 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_footer" 0.65 ms (1)
+Sep 24 23:36:35 symfony [info] {sfWebResponse} Send content (71647 o)
+Sep 24 23:36:36 symfony [info] {sfPatternRouting} Match route "mensagem" (/Message.:sf_format) for /Message with parameters array (  'module' => 'Message',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:36 symfony [info] {MessageActions} Call "MessageActions->executeIndex()"
+Sep 24 23:36:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM MENSAGEM m - ()
+Sep 24 23:36:36 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/indexSuccess.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_assets.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_flashes.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_header.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.topi_cd_chave AS t__topi_cd_chave, t.usua_cd_criador AS t__usua_cd_criador, t.topi_dt_criacao AS t__topi_dt_criacao, t.topi_tx_titulo AS t__topi_tx_titulo, t.topi_tx_conteudo AS t__topi_tx_conteudo, t.topi_nm_anexo AS t__topi_nm_anexo FROM TOPICO t - ()
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_filters_field.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_batch_actions.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_actions.php"
+Sep 24 23:36:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoMessage/templates/_list_footer.php"
+Sep 24 23:36:36 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:36 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Configuration 2.26 ms (11)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Factories 52.15 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Action "Message/index" 38.50 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (4)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} View "Success" for "Message/index" 65.32 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_assets" 0.80 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_flashes" 0.72 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_list_header" 0.62 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_filters" 40.65 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_filters_field" 32.11 ms (5)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_list" 0.90 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_list_batch_actions" 1.32 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_list_actions" 0.88 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebDebugLogger} Partial "Message/_list_footer" 0.64 ms (1)
+Sep 24 23:36:36 symfony [info] {sfWebResponse} Send content (73903 o)
+Sep 24 23:36:38 symfony [info] {sfPatternRouting} Match route "topico" (/Topic.:sf_format) for /Topic with parameters array (  'module' => 'Topic',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:38 symfony [info] {TopicActions} Call "TopicActions->executeIndex()"
+Sep 24 23:36:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM TOPICO t - ()
+Sep 24 23:36:38 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/indexSuccess.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_assets.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_flashes.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_header.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_batch_actions.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_actions.php"
+Sep 24 23:36:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_footer.php"
+Sep 24 23:36:38 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:38 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Configuration 2.38 ms (11)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Factories 56.75 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Action "Topic/index" 38.98 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} View "Success" for "Topic/index" 63.84 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_assets" 0.77 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_flashes" 0.69 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_header" 0.61 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters" 38.66 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters_field" 29.77 ms (5)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_list" 0.98 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_batch_actions" 1.30 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_actions" 1.04 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_footer" 0.75 ms (1)
+Sep 24 23:36:38 symfony [info] {sfWebResponse} Send content (71674 o)
+Sep 24 23:36:56 symfony [info] {sfPatternRouting} Match route "topico_collection" (/Topic/:action/action.:sf_format) for /Topic/filter/action with parameters array (  'module' => 'Topic',  'action' => 'filter',  'sf_format' => 'html',)
+Sep 24 23:36:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:56 symfony [info] {TopicActions} Call "TopicActions->executeFilter()"
+Sep 24 23:36:56 symfony [info] {sfFrontWebController} Redirect to "http://127.0.0.1:8080/admin_dev.php/Topic"
+Sep 24 23:36:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 24 23:36:56 symfony [info] {sfWebResponse} Send header "Location: http://127.0.0.1:8080/admin_dev.php/Topic"
+Sep 24 23:36:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Configuration 2.15 ms (10)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Factories 63.14 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Action "Topic/filter" 25.04 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebResponse} Send content (112 o)
+Sep 24 23:36:56 symfony [info] {sfPatternRouting} Match route "topico" (/Topic.:sf_format) for /Topic with parameters array (  'module' => 'Topic',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:56 symfony [info] {TopicActions} Call "TopicActions->executeIndex()"
+Sep 24 23:36:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM TOPICO t - ()
+Sep 24 23:36:56 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/indexSuccess.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_assets.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_flashes.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_header.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_batch_actions.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_actions.php"
+Sep 24 23:36:56 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_footer.php"
+Sep 24 23:36:56 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:56 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Configuration 2.29 ms (11)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Factories 62.24 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Action "Topic/index" 41.23 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} View "Success" for "Topic/index" 65.85 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_assets" 0.82 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_flashes" 0.74 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_header" 0.67 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters" 38.36 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters_field" 29.41 ms (5)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_list" 1.03 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_batch_actions" 1.27 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_actions" 0.90 ms (1)
+Sep 24 23:36:56 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_footer" 0.63 ms (1)
+Sep 24 23:36:57 symfony [info] {sfWebResponse} Send content (72114 o)
+Sep 24 23:36:58 symfony [info] {sfPatternRouting} Match route "topico" (/Topic.:sf_format) for /Topic with parameters array (  'module' => 'Topic',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:36:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:36:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:36:58 symfony [info] {TopicActions} Call "TopicActions->executeIndex()"
+Sep 24 23:36:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:36:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM TOPICO t - ()
+Sep 24 23:36:58 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/indexSuccess.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_assets.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_flashes.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_header.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u - ()
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_filters_field.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_batch_actions.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_actions.php"
+Sep 24 23:36:58 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoTopic/templates/_list_footer.php"
+Sep 24 23:36:58 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:58 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:36:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:36:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Configuration 2.23 ms (11)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Factories 65.78 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Action "Topic/index" 43.39 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (3)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} View "Success" for "Topic/index" 65.03 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_assets" 0.75 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_flashes" 0.73 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_header" 0.66 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters" 39.13 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_filters_field" 30.64 ms (5)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_list" 0.95 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_batch_actions" 1.33 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_actions" 1.01 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebDebugLogger} Partial "Topic/_list_footer" 0.70 ms (1)
+Sep 24 23:36:58 symfony [info] {sfWebResponse} Send content (72114 o)
+Sep 24 23:37:02 symfony [info] {sfPatternRouting} Match route "noticia" (/News.:sf_format) for /News with parameters array (  'module' => 'News',  'action' => 'index',  'sf_format' => 'html',)
+Sep 24 23:37:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:37:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:37:02 symfony [info] {NewsActions} Call "NewsActions->executeIndex()"
+Sep 24 23:37:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:37:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM NOTICIA n - ()
+Sep 24 23:37:02 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/indexSuccess.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_assets.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_flashes.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_header.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:37:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.tino_cd_chave AS t__tino_cd_chave, t.tino_nm_descricao AS t__tino_nm_descricao FROM TIPO_NOTICIA t - ()
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_filters_field.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_batch_actions.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_actions.php"
+Sep 24 23:37:02 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_list_footer.php"
+Sep 24 23:37:02 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:37:02 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:37:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:37:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Configuration 2.28 ms (11)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Factories 62.46 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Action "News/index" 39.83 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} View "Success" for "News/index" 67.94 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_assets" 0.86 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_flashes" 0.83 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_list_header" 0.66 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_filters" 42.01 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_filters_field" 33.54 ms (6)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_list" 0.97 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_list_batch_actions" 1.24 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_list_actions" 0.90 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebDebugLogger} Partial "News/_list_footer" 0.64 ms (1)
+Sep 24 23:37:02 symfony [info] {sfWebResponse} Send content (77835 o)
+Sep 24 23:37:04 symfony [info] {sfPatternRouting} Match route "noticia_new" (/News/new.:sf_format) for /News/new with parameters array (  'module' => 'News',  'action' => 'new',  'sf_format' => 'html',)
+Sep 24 23:37:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:37:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:37:04 symfony [info] {NewsActions} Call "NewsActions->executeNew()"
+Sep 24 23:37:04 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/newSuccess.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_assets.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_flashes.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_header.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_fieldset.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_actions.php"
+Sep 24 23:37:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_footer.php"
+Sep 24 23:37:04 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:37:04 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:37:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:37:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Configuration 2.10 ms (11)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Factories 66.82 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Action "News/new" 25.22 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} View "Success" for "News/new" 77.26 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_assets" 0.86 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_flashes" 1.11 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_form_header" 1.15 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_form" 30.22 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_form_fieldset" 22.50 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_form_field" 18.15 ms (5)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_form_actions" 1.38 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebDebugLogger} Partial "News/_form_footer" 0.68 ms (1)
+Sep 24 23:37:04 symfony [info] {sfWebResponse} Send content (77256 o)
+Sep 24 23:37:21 symfony [info] {sfPatternRouting} Match route "noticia_create" (/News.:sf_format) for /News with parameters array (  'module' => 'News',  'action' => 'create',  'sf_format' => 'html',)
+Sep 24 23:37:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:37:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:37:21 symfony [info] {NewsActions} Call "NewsActions->executeCreate()"
+Sep 24 23:37:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:37:21 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO NOTICIA (noti_nm_titulo, noti_tx_conteudo, noti_nm_fonte, noti_dt_publicacao, noti_nm_link) VALUES (?, ?, ?, ?, ?) - (Texto, Cotneúdo louco, Fonte, 2006-01-01 00:00:00, )
+Sep 24 23:37:21 symfony [info] {sfFrontWebController} Redirect to "http://127.0.0.1:8080/admin_dev.php/News/1/edit"
+Sep 24 23:37:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 24 23:37:21 symfony [info] {sfWebResponse} Send header "Location: http://127.0.0.1:8080/admin_dev.php/News/1/edit"
+Sep 24 23:37:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Configuration 2.11 ms (10)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Factories 58.89 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Action "News/create" 153.31 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Sep 24 23:37:21 symfony [info] {sfWebResponse} Send content (118 o)
+Sep 24 23:37:21 symfony [info] {sfPatternRouting} Match route "noticia_edit" (/News/:noti_cd_chave/edit.:sf_format) for /News/1/edit with parameters array (  'module' => 'News',  'action' => 'edit',  'sf_format' => 'html',  'noti_cd_chave' => '1',)
+Sep 24 23:37:21 symfony [info] {myUser} Flag old flash messages ("notice")
+Sep 24 23:37:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:37:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:37:21 symfony [info] {NewsActions} Call "NewsActions->executeEdit()"
+Sep 24 23:37:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 23:37:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.noti_cd_chave = ?) - (1)
+Sep 24 23:37:21 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/editSuccess.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_assets.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_flashes.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_header.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_fieldset.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_field.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_actions.php"
+Sep 24 23:37:21 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/cache/admin/dev/modules/autoNews/templates/_form_footer.php"
+Sep 24 23:37:21 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:37:21 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:37:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:37:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Configuration 2.30 ms (11)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Factories 59.31 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Action "News/edit" 51.65 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} View "Success" for "News/edit" 79.49 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_assets" 1.12 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_flashes" 1.19 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_form_header" 0.84 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_form" 28.52 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_form_fieldset" 21.49 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_form_field" 17.37 ms (5)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_form_actions" 2.26 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebDebugLogger} Partial "News/_form_footer" 0.79 ms (1)
+Sep 24 23:37:21 symfony [info] {sfWebResponse} Send content (82340 o)
+Sep 24 23:37:21 symfony [info] {myUser} Remove old flash messages ("notice")
+Sep 24 23:38:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 23:38:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 23:38:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 23:38:04 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 23:38:04 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/indexSuccess.php"
+Sep 24 23:38:04 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/admin/modules/Home/templates/_login.php"
+Sep 24 23:38:04 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:38:04 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/admin/templates/layout.php"
+Sep 24 23:38:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 23:38:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 23:38:04 symfony [info] {sfWebDebugLogger} Configuration 1.90 ms (9)
+Sep 24 23:38:04 symfony [info] {sfWebDebugLogger} Factories 59.16 ms (1)
+Sep 24 23:38:04 symfony [info] {sfWebDebugLogger} Action "Home/index" 0.16 ms (1)
+Sep 24 23:38:04 symfony [info] {sfWebDebugLogger} View "Success" for "Home/index" 23.15 ms (1)
+Sep 24 23:38:04 symfony [info] {sfWebDebugLogger} Partial "Home/_login" 5.31 ms (1)
+Sep 24 23:38:04 symfony [info] {sfWebResponse} Send content (30433 o)

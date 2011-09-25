@@ -1,0 +1,164 @@
+Sep 23 01:42:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 23 01:42:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:42:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:42:45 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 23 01:42:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:42:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 23 01:42:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 23 01:42:45 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 23 01:42:45 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 23 01:42:45 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 23 01:42:45 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 23 01:42:45 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 23 01:42:45 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 23 01:42:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:42:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:42:45 symfony [info] {sfWebResponse} Send content (9078 o)
+Sep 23 01:42:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /User/login with parameters array (  'module' => 'User',  'action' => 'login',)
+Sep 23 01:42:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:42:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:42:51 symfony [info] {UserActions} Call "UserActions->executeLogin()"
+Sep 23 01:42:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:42:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u WHERE (u.usua_nm_usuario = ? AND u.usua_cd_senha = ?) LIMIT 1 - (admin, admin)
+Sep 23 01:42:51 symfony [info] {myUser} Add credential(s) "1"
+Sep 23 01:42:51 symfony [info] {myUser} User is authenticated
+Sep 23 01:42:51 symfony [info] {sfFrontWebController} Redirect to "http://127.0.0.1:8080/frontend_dev.php/"
+Sep 23 01:42:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 23 01:42:51 symfony [info] {sfWebResponse} Send header "Location: http://127.0.0.1:8080/frontend_dev.php/"
+Sep 23 01:42:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:42:51 symfony [info] {sfWebResponse} Send content (110 o)
+Sep 23 01:42:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 23 01:42:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:42:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:42:51 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 23 01:42:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:42:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 23 01:42:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 23 01:42:51 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 23 01:42:51 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 23 01:42:51 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 23 01:42:51 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 23 01:42:51 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 23 01:42:51 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 23 01:42:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:42:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:42:51 symfony [info] {sfWebResponse} Send content (9381 o)
+Sep 23 01:43:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 23 01:43:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 01:43:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 01:43:09 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 23 01:43:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 23 01:43:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 23 01:43:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 23 01:43:09 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 23 01:43:09 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 23 01:43:09 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 23 01:43:09 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 23 01:43:09 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 23 01:43:09 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 23 01:43:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 01:43:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 01:43:09 symfony [info] {sfWebResponse} Send content (9381 o)
+Sep 24 21:07:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 21:07:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 21:07:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 21:07:54 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 21:07:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 21:07:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 24 21:07:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 24 21:07:54 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 24 21:07:54 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 24 21:07:54 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 24 21:07:54 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:07:54 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:07:54 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 24 21:07:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 21:07:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 21:07:54 symfony [info] {sfWebResponse} Send content (9078 o)
+Sep 24 21:09:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /User/login with parameters array (  'module' => 'User',  'action' => 'login',)
+Sep 24 21:09:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 21:09:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 21:09:32 symfony [info] {UserActions} Call "UserActions->executeLogin()"
+Sep 24 21:09:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 21:09:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.usua_cd_chave AS u__usua_cd_chave, u.usua_nm_usuario AS u__usua_nm_usuario, u.usua_cd_senha AS u__usua_cd_senha, u.tius_cd_chave AS u__tius_cd_chave FROM USUARIO u WHERE (u.usua_nm_usuario = ? AND u.usua_cd_senha = ?) LIMIT 1 - (admin, admin)
+Sep 24 21:09:32 symfony [info] {myUser} Add credential(s) "1"
+Sep 24 21:09:32 symfony [info] {myUser} User is authenticated
+Sep 24 21:09:32 symfony [info] {sfFrontWebController} Redirect to "http://127.0.0.1:8080/frontend_dev.php/"
+Sep 24 21:09:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 24 21:09:32 symfony [info] {sfWebResponse} Send header "Location: http://127.0.0.1:8080/frontend_dev.php/"
+Sep 24 21:09:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 21:09:32 symfony [info] {sfWebResponse} Send content (110 o)
+Sep 24 21:09:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 21:09:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 21:09:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 21:09:32 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 21:09:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 21:09:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 24 21:09:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 24 21:09:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 24 21:09:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 24 21:09:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 24 21:09:33 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:09:33 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:09:33 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 24 21:09:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 21:09:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 21:09:33 symfony [info] {sfWebResponse} Send content (9381 o)
+Sep 24 21:09:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 21:09:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 21:09:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 21:09:36 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 21:09:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 21:09:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 24 21:09:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 24 21:09:36 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 24 21:09:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 24 21:09:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 24 21:09:36 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:09:36 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:09:36 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 24 21:09:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 21:09:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 21:09:36 symfony [info] {sfWebResponse} Send content (9381 o)
+Sep 24 21:09:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /User/signout with parameters array (  'module' => 'User',  'action' => 'signout',)
+Sep 24 21:09:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 21:09:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 21:09:38 symfony [info] {UserActions} Call "UserActions->executeSignout()"
+Sep 24 21:09:38 symfony [info] {myUser} User is not authenticated
+Sep 24 21:09:38 symfony [info] {sfFrontWebController} Redirect to "http://127.0.0.1:8080/frontend_dev.php/"
+Sep 24 21:09:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 24 21:09:38 symfony [info] {sfWebResponse} Send header "Location: http://127.0.0.1:8080/frontend_dev.php/"
+Sep 24 21:09:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 21:09:38 symfony [info] {sfWebResponse} Send content (110 o)
+Sep 24 21:09:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 21:09:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 21:09:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 21:09:38 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 21:09:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 21:09:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 24 21:09:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 24 21:09:38 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 24 21:09:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 24 21:09:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 24 21:09:38 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:09:38 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:09:38 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 24 21:09:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 21:09:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 21:09:38 symfony [info] {sfWebResponse} Send content (9078 o)
+Sep 24 21:16:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'Home',  'action' => 'index',)
+Sep 24 21:16:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 24 21:16:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 24 21:16:14 symfony [info] {HomeActions} Call "HomeActions->executeIndex()"
+Sep 24 21:16:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 24 21:16:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (1)
+Sep 24 21:16:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.noti_cd_chave AS n__noti_cd_chave, n.tino_cd_chave AS n__tino_cd_chave, n.noti_nm_titulo AS n__noti_nm_titulo, n.noti_tx_conteudo AS n__noti_tx_conteudo, n.noti_nm_fonte AS n__noti_nm_fonte, n.noti_dt_publicacao AS n__noti_dt_publicacao, n.noti_nm_link AS n__noti_nm_link FROM NOTICIA n WHERE (n.tino_cd_chave = ?) ORDER BY n.noti_dt_publicacao DESC LIMIT 5 - (2)
+Sep 24 21:16:14 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/modules/Home/templates/indexSuccess.php"
+Sep 24 21:16:14 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/News/templates/_indexShow.php"
+Sep 24 21:16:14 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/Notice/templates/_indexShow.php"
+Sep 24 21:16:14 symfony [info] {sfPHPView} Decorate content with "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:16:14 symfony [info] {sfPHPView} Render "/home/morada/www/ricino/apps/frontend/templates/layout.php"
+Sep 24 21:16:14 symfony [info] {sfPartialView} Render "/home/morada/www/ricino/apps/frontend/modules/User/templates/_login.php"
+Sep 24 21:16:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 24 21:16:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 24 21:16:14 symfony [info] {sfWebResponse} Send content (9078 o)

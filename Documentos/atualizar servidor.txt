@@ -1,0 +1,12 @@
+Atualizar Ricino
+
+
+php www/symfony cc
+
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=mysql.rinico.org.br;dbname=ricino_org_br'
+      username: ricino
+      password: 'navio1234'

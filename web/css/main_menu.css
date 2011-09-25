@@ -1,0 +1,86 @@
+*@font-face {
+	font-family: Univers;
+	src: url(univer.eot);
+	src: local(verdana), url(univer.ttf);
+}
+
+body {
+	margin: 0px;
+	font-family:Univers;
+}
+
+/*--------INICIO DO MENU ---------*/	
+
+ul#menucontainer {
+	width:135px;
+  	margin:0 auto;
+	list-style-type:none;
+	
+}
+ul#menucontainer li{
+   
+   margin-left:-40px;
+   * margin-left: -2px;
+     
+}
+ul#menucontainer li a{
+      display:block;
+	  margin-top: 2px;
+	  * margin-top: 0px;
+	  padding-left: 4px;
+	  padding-top: 3px;
+	  width:135px;
+      height:16px;
+      background:#E7EDEF;
+      text-decoration: none;
+	  color: #405553;
+	  font-family: Univers;
+      font-size: 9px;
+	  text-align: left;
+	  	  	 	  
+}
+ul#menucontainer li a:hover{
+	  display:block;
+	  background-color:#00255C;
+      color: #FFF;
+	  
+
+/*--------Propriedades de SUB MENU 1---------*/	  	  	  
+}
+ul#menucontainer li ul#submenu1{
+      display:none;
+      position: relative;
+	  * margin-left: 2px;
+	  list-style-type:none;
+	  	  	  
+}ul#menucontainer li:hover ul#submenu1{
+      display: block;
+	  
+}
+
+ul#menucontainer li ul#submenu1 li a{
+      width:135px;
+	  margin-top: 2px;
+	  * margin-top: 0px;
+	  padding-left: 4px;
+	  padding-top: 3px;
+	  text-align: left;
+	  background: #339900;
+	  color: #FFF;
+	  
+}
+ul#menucontainer li ul#submenu1 li a:hover{
+      width:135px;
+	  margin-top: 2px;
+	  * margin-top: 0px;
+	  padding-left: 4px;
+	  padding-top: 3px;
+	  text-align: left;
+	  background: #66CC33;
+	  color: #FFF;
+}
+
+		
+
+
+

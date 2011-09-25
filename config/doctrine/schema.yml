@@ -1,0 +1,756 @@
+AJUDA:
+  connection: doctrine
+  tableName: AJUDA
+  columns:
+    ajud_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    ajud_nm_assunto:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ajud_nm_pergunta:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ajud_tx_resposta:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ajud_dt_inclusao:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ajud_nm_autor:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+ARQUIVO:
+  connection: doctrine
+  tableName: ARQUIVO
+  columns:
+    arqu_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    tius_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    tiar_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    seca_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    arqu_nm_url:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    SECAO:
+      local: seca_cd_chave
+      foreign: seca_cd_chave
+      type: one
+    TIPO_ARQUIVO:
+      local: tiar_cd_chave
+      foreign: tiar_cd_chave
+      type: one
+    TIPO_USUARIO:
+      local: tius_cd_chave
+      foreign: tius_cd_chave
+      type: one
+ARTIGO_EVENTO:
+  connection: doctrine
+  tableName: ARTIGO_EVENTO
+  columns:
+    arev_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    inev_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    arev_nm_url:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    INSCRICAO_EVENTO:
+      local: inev_cd_chave
+      foreign: inev_cd_chave
+      type: one
+EVENTO:
+  connection: doctrine
+  tableName: EVENTO
+  columns:
+    even_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    even_dt_realizacao:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    even_nm_local:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    even_nm_organizacao:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    even_nm_hotsite:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    INSCRICAO_EVENTO:
+      local: even_cd_chave
+      foreign: even_cd_chave
+      type: many
+    MATERIAL_EVENTO:
+      local: even_cd_chave
+      foreign: even_cd_chave
+      type: many
+INSCRICAO_EVENTO:
+  connection: doctrine
+  tableName: INSCRICAO_EVENTO
+  columns:
+    inev_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    usua_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    even_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    inev_dt_confirmacao:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    EVENTO:
+      local: even_cd_chave
+      foreign: even_cd_chave
+      type: one
+    USUARIO:
+      local: usua_cd_chave
+      foreign: usua_cd_chave
+      type: one
+    ARTIGO_EVENTO:
+      local: inev_cd_chave
+      foreign: inev_cd_chave
+      type: many
+LINK_EXTERNO:
+  connection: doctrine
+  tableName: LINK_EXTERNO
+  columns:
+    liex_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    liex_nm_url:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    liex_nm_rotulo:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    liex_nm_imagem:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+MATERIAL_EVENTO:
+  connection: doctrine
+  tableName: MATERIAL_EVENTO
+  columns:
+    maev_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    even_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    maev_nm_url:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    EVENTO:
+      local: even_cd_chave
+      foreign: even_cd_chave
+      type: one
+MENSAGEM:
+  connection: doctrine
+  tableName: MENSAGEM
+  columns:
+    mens_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    usua_cd_criador:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    topi_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    mens_dt_criacao:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    mens_tx_conteudo:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    mens_nm_anexo:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    TOPICO:
+      local: topi_cd_chave
+      foreign: topi_cd_chave
+      type: one
+    USUARIO:
+      local: usua_cd_criador
+      foreign: usua_cd_chave
+      type: one
+NOTICIA:
+  connection: doctrine
+  tableName: NOTICIA
+  columns:
+    noti_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    tino_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '1'
+      notnull: false
+      autoincrement: false
+    noti_nm_titulo:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    noti_tx_conteudo:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    noti_nm_fonte:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    noti_dt_publicacao:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    noti_nm_link:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    TIPO_NOTICIA:
+      local: tino_cd_chave
+      foreign: tino_cd_chave
+      type: one
+PROJETO:
+  connection: doctrine
+  tableName: PROJETO
+  columns:
+    proj_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    stpr_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    tius_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    proj_nm_titulo:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    proj_tx_descricao:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    proj_nm_documento:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    STATUS_PROJETO:
+      local: stpr_cd_chave
+      foreign: stpr_cd_chave
+      type: one
+    TIPO_USUARIO:
+      local: tius_cd_chave
+      foreign: tius_cd_chave
+      type: one
+    RELATORIO:
+      local: proj_cd_chave
+      foreign: proj_cd_chave
+      type: many
+RELATORIO:
+  connection: doctrine
+  tableName: RELATORIO
+  columns:
+    rela_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    proj_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    rela_tx_descricao:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    rela_nm_documento:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    rela_nm_autores:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    PROJETO:
+      local: proj_cd_chave
+      foreign: proj_cd_chave
+      type: one
+SECAO:
+  connection: doctrine
+  tableName: SECAO
+  columns:
+    seca_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    seca_nm_descricao:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ARQUIVO:
+      local: seca_cd_chave
+      foreign: seca_cd_chave
+      type: many
+SECAO_TOPICO:
+  connection: doctrine
+  tableName: SECAO_TOPICO
+  columns:
+    seto_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    seto_nm_descricao:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    TOPICO:
+      local: seto_cd_chave
+      foreign: seto_cd_chave
+      type: many
+STATUS_PROJETO:
+  connection: doctrine
+  tableName: STATUS_PROJETO
+  columns:
+    stpr_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    stpr_nm_descricao:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    PROJETO:
+      local: stpr_cd_chave
+      foreign: stpr_cd_chave
+      type: many
+TIPO_ARQUIVO:
+  connection: doctrine
+  tableName: TIPO_ARQUIVO
+  columns:
+    tiar_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    tiar_nm_descricao:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ARQUIVO:
+      local: tiar_cd_chave
+      foreign: tiar_cd_chave
+      type: many
+TIPO_NOTICIA:
+  connection: doctrine
+  tableName: TIPO_NOTICIA
+  columns:
+    tino_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    tino_nm_descricao:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    NOTICIA:
+      local: tino_cd_chave
+      foreign: tino_cd_chave
+      type: many
+TIPO_USUARIO:
+  connection: doctrine
+  tableName: TIPO_USUARIO
+  columns:
+    tius_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    tius_nm_descricao:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    ARQUIVO:
+      local: tius_cd_chave
+      foreign: tius_cd_chave
+      type: many
+    PROJETO:
+      local: tius_cd_chave
+      foreign: tius_cd_chave
+      type: many
+    USUARIO:
+      local: tius_cd_chave
+      foreign: tius_cd_chave
+      type: many
+TOPICO:
+  connection: doctrine
+  tableName: TOPICO
+  columns:
+    topi_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    usua_cd_criador:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    topi_dt_criacao:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    seto_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    topi_tx_titulo:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    topi_tx_conteudo:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    topi_nm_anexo:
+      type: string(200)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    SECAO_TOPICO:
+      local: seto_cd_chave
+      foreign: seto_cd_chave
+      type: one
+    USUARIO:
+      local: usua_cd_criador
+      foreign: usua_cd_chave
+      type: one
+    MENSAGEM:
+      local: topi_cd_chave
+      foreign: topi_cd_chave
+      type: many
+USUARIO:
+  connection: doctrine
+  tableName: USUARIO
+  columns:
+    usua_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    usua_nm_usuario:
+      type: string(20)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    usua_cd_senha:
+      type: string(20)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    tius_cd_chave:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    usua_nm_nome:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    usua_dt_nascimento:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    TIPO_USUARIO:
+      local: tius_cd_chave
+      foreign: tius_cd_chave
+      type: one
+    INSCRICAO_EVENTO:
+      local: usua_cd_chave
+      foreign: usua_cd_chave
+      type: many
+    MENSAGEM:
+      local: usua_cd_chave
+      foreign: usua_cd_criador
+      type: many
+    TOPICO:
+      local: usua_cd_chave
+      foreign: usua_cd_criador
+      type: many
