@@ -1,3 +1,12 @@
+secao_topico:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SECAO_TOPICO
+    module:               TopicSection
+    prefix_path:          /TopicSection
+    column:               seto_cd_chave
+    with_wildcard_routes: true
+
 mensagem:
   class: sfDoctrineRouteCollection
   options:

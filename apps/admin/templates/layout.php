@@ -28,6 +28,7 @@
                                 <li><a href="<?php echo url_for('Message/index'); ?>">Mensagens</a></li>
                                 <li><a href="<?php echo url_for('News/index'); ?>">Noticias</a></li>
                                 <li><a href="<?php echo url_for('Notice/index'); ?>">Avisos</a></li>
+                                <li><a href="<?php echo url_for('TopicSection/index'); ?>">Grandes Areas</a></li>
                         <?php
                             }
                         ?>
