@@ -24,6 +24,12 @@ body {
 	background-color:#CBE8E6;
 }
 
+#global_admin_geral {
+	height:100%;
+	width:100%;
+	background-color:#CBE8E6;
+}
+
 #global_topo {
 	height:180px;
 }
@@ -147,12 +153,27 @@ body {
 
 }
 
+#menu_admin_lateral {
+	height:300px;
+	width:15%;	
+	float:left; /* HACK DO IE5 PARA ALINHAR A ESQUERDA A DIV CONTEUDO*/
+
+}
+
 #conteudo {
 	min-height:300px;
 	width:629px;
 	float:right;
     background-color: #FFF;	
 }
+
+#conteudo_admin {
+	min-height:300px;
+	width:85%;
+	float:right;
+    background-color: #FFF;	
+}
+
 .titulo1{
 	width: 590px;
 	padding-top: 8px;

@@ -8,35 +8,33 @@
     <?php include_stylesheets() ?>
   </head>
     <body>
-      <div id="global_geral">
+      <div id="global_admin_geral">
         <div id="global_topo">
             <div id="topo">
                 <a href="<?php echo url_for('Home/index'); ?>"><div id="logo"></div></a>
             </div>
         </div>
         <div id="global_meio">
-            <div id="meio">
-                <div id="menu_lateral">
-                    <ul id="menucontainer">
-                        <?php
-                            $user = sfContext::getInstance()->getUser();
-                            $credentials = $user->getCredentials();                            
-                            if(($user->isAuthenticated()) && ($credentials[0] == sfConfig::get('app_ADMIN')))
-                            {
-                        ?>
-                                <li><a href="<?php echo url_for('Topic/index'); ?>">Fórum</a></li>
-                                <li><a href="<?php echo url_for('Message/index'); ?>">Mensagens</a></li>
-                                <li><a href="<?php echo url_for('News/index'); ?>">Noticias</a></li>
-                                <li><a href="<?php echo url_for('Notice/index'); ?>">Avisos</a></li>
-                                <li><a href="<?php echo url_for('TopicSection/index'); ?>">Grandes Areas</a></li>
-                        <?php
-                            }
-                        ?>
-                    </ul>
-                </div>
-                <div id="conteudo">
-                    <?php echo $sf_content ?>
-                </div>
+            <div id="menu_lateral">
+                <ul id="menucontainer">
+                    <?php
+                        $user = sfContext::getInstance()->getUser();
+                        $credentials = $user->getCredentials();                            
+                        if(($user->isAuthenticated()) && ($credentials[0] == sfConfig::get('app_ADMIN')))
+                        {
+                    ?>
+                            <li><a href="<?php echo url_for('Topic/index'); ?>">Fórum</a></li>
+                            <li><a href="<?php echo url_for('Message/index'); ?>">Mensagens</a></li>
+                            <li><a href="<?php echo url_for('News/index'); ?>">Noticias</a></li>
+                            <li><a href="<?php echo url_for('Notice/index'); ?>">Avisos</a></li>
+                            <li><a href="<?php echo url_for('TopicSection/index'); ?>">Grandes Areas</a></li>
+                    <?php
+                        }
+                    ?>
+                </ul>
+            </div>
+            <div id="conteudo_admin">
+                <?php echo $sf_content ?>
             </div>
             <div id="global_rodape">
                 <div id="rodape">
