@@ -98,6 +98,7 @@
                         </li>
                         <li><a href="<?php echo url_for('Notice/index'); ?>">AVISOS</a></li>
                         <li><a href="#">AJUDA</a></li>
+                        <li><a href="<?php echo url_for('User/new'); ?>">Cadastro</a></li>
                     </ul>
                 </div>
                 <div id="conteudo">
